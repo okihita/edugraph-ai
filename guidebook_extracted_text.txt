@@ -1,0 +1,630 @@
+=== PAGE 1 ===
+P R E S E N T S
+PUSAT SATU DATA DAN
+KECERDASAN DIGITAL
+Universitas Airlangga
+O F F I C I A L  G U I D E B O O K  ·  2 0 2 6
+Empowering Indonesia through Data & AI — from campus to nation.
+CAMPUS DATA WEEK
+2026
+Empowering Indonesia through Data & AI 
+— from campus to nation
+INNOVATION CASE
+COMPETITION
+GUIDEBOOK
+campusdataweek.satudata.unair.ac.id
+pusaka@mail.unair.ac.id  ·  @satudata.unair
+CAMPUS DATA WEEK
+O F F I C I A L  G U I D E B O O K  ·  2 0 2 6
+INNOVATION CASE
+COMPETITION
+
+=== PAGE 2 ===
+ 
+ 
+1 
+Daftar Isi 
+Daftar Isi................................ ................................ ................................ ................................ ...... 1 
+BAB I — Pendahuluan................................ ................................ ................................ ................. 2 
+1.1 Latar Belakang ................................ ................................ ................................ ...................  2 
+1.2 Tujuan................................ ................................ ................................ ................................  2 
+1.3 Tema ................................ ................................ ................................ ................................ . 2 
+BAB II — Ketentuan Umum ................................ ................................ ................................ ......... 2 
+2.1 Persyaratan Peserta ................................ ................................ ................................ .......... 2 
+2.2 Biaya Pendaftaran ................................ ................................ ................................ ............. 3 
+2.3 Jadwal Kegiatan................................ ................................ ................................ ................. 3 
+BAB III — Mekanisme Pendaftaran ................................ ................................ .............................  3 
+BAB IV — Mekanisme & Teknis Perlombaan ................................ ................................ .............. 4 
+4.1 Babak Penyisihan — Implementasi Model ................................ ................................ ......... 4 
+4.2 Babak Semifinal — Penyusunan Draft Karya Ilmiah ................................ ...........................  4 
+4.3 Babak Final — Karya Ilmiah dan Demo ................................ ................................ .............. 4 
+BAB V — Kriteria Penilaian ................................ ................................ ................................ ......... 4 
+5.1 Bobot Penilaian Semifinal ................................ ................................ ................................ .. 4 
+5.2 Bobot Final ................................ ................................ ................................ ........................  5 
+BAB VI — Hadiah & Penghargaan ................................ ................................ ..............................  5 
+BAB VII — Tata Tertib & Diskualifikasi ................................ ................................ ........................  5 
+7.1 Babak Penyisihan ................................ ................................ ................................ .............. 5 
+7.2 Babak Semifinal dan Final (Karya Ilmiah) ................................ ................................ ......... 10 
+BAB VIII — Ketentuan Penutup ................................ ................................ ................................ . 13 
+ 
+  
+
+=== PAGE 3 ===
+ 
+ 
+2 
+BAB I — Pendahuluan 
+1.1 Latar Belakang 
+Campus Data Week 2026 diselenggarakan oleh Pusat Satu Data dan Kecerdasan Digital 
+(PUSAKA) Universitas Airlangga. Innovation Case Competition (ICC) adalah kompetisi inovasi 
+berbasis kecerdasan buatan (Artificial Intelligence) yang menantang mahasiswa untuk merancang 
+solusi nyata bagi dunia pendidikan Indonesia. 
+ICC terdiri atas dua tahap yang saling melengkapi: tahap penyisihan yang menguji kemampuan 
+teknis implementasi  model, dan tahap final yang menguji kemampuan peserta merumuskan 
+inovasi utuh, dari ide, karya ilmiah, hingga demo produk. Kombinasi ini memastikan pemenang 
+bukan sekadar mahir secara teknis, tetapi juga mampu menerjemahkan teknologi menjadi solusi 
+yang berdampak. 
+1.2 Tujuan 
+• Mendorong mahasiswa menghasilkan inovasi berbasis AI yang menjawab persoalan nyata 
+pendidikan Indonesia. 
+• Menguji kompetensi teknis (implementasi model) sekaligus kemampuan berpikir strategis 
+(kelayakan, skalabilitas, dampak). 
+• Menjadi wadah pertemuan talenta AI mahasiswa se-Indonesia. 
+1.3 Tema 
+“Improving Student’s Learning Experience in Indonesia Through AI Innovation” 
+Meningkatkan pengalaman belajar mahasiswa di Indonesia melalui inovasi kecerdasan buatan. 
+ 
+Peserta diberi kebebasan menentukan sub -fokus selama relevan dengan tema, misalnya: 
+personalisasi pembelajaran, asisten belajar cerdas, aksesibilitas materi, asesmen otomatis, 
+deteksi mahasiswa berisiko (early warning), atau optimalisasi pengalaman belajar lainnya. 
+BAB II — Ketentuan Umum 
+2.1 Persyaratan Peserta 
+1. Peserta adalah mahasiswa aktif jenjang Sarjana (S1) atau Diploma (D3/D4) dari perguruan 
+tinggi di seluruh Indonesia, dibuktikan dengan Kartu Tanda Mahasiswa (KTM) yang masih 
+berlaku dan surat keterangan mahasiswa aktif dari fakultas atau universitas bersangkutan. 
+2. Kompetisi diikuti secara beregu dengan jumlah 4 (empat) orang per tim. 
+3. Anggota satu tim boleh lintas program studi, fakultas, atau angkatan, namun harus dari 
+perguruan tinggi yang sama. 
+4. Setiap peserta hanya boleh tergabung dalam 1 (satu) tim pada seluruh perlombaan Campus 
+Data Week. 
+5. Tim menunjuk satu ketua sebagai narahubung resmi dengan panitia. 
+ 
+ 
+
+=== PAGE 4 ===
+ 
+ 
+3 
+2.2 Biaya Pendaftaran 
+GRATIS. Tidak ada biaya pendaftaran untuk seluruh kompetisi Campus Data Week 2026. 
+2.3 Jadwal Kegiatan 
+Kegiatan Waktu Kanal 
+Pendaftaran dibuka 25 Juli 2026 Platform pendaftaran 
+Pendaftaran ditutup 13 Agustus 2026 Platform pendaftaran 
+Technical Meeting Penyisihan 14 Agustus 2026 Zoom Meeting 
+Pengumpulan model (Babak penyisihan) 28 Agustus 2026 Team Dashboard 
+Verifikasi & Pengumuman Semifinalis (Top 
+20) 7 September 2026 Kanal resmi 
+Technical Meeting Semifinal 13 September 2026 Zoom Meeting 
+Pengumpulan draft karya ilmiah final Bab 1-
+3 (Semifinal) 30 September 2026 Team Dashboard 
+Penilaian Semifinal & Pengumuman Finalis 
+(Top 6) 10 Oktober 2026 Kanal resmi 
+Pengumpulan karya ilmiah lengkap (Final) 23 Oktober 2026 Team Dashboard 
+Opening & Technical Meeting Final 27 Oktober 2026 Luring di Unair 
+Babak Final (presentasi offline) 28 Oktober 2026 Luring di Unair 
+Awarding & Closing 28 Oktober 2026, pukul 
+14.00 Luring di Unair 
+BAB III — Mekanisme Pendaftaran 
+1. Ketua tim mengakses tautan pendaftaran resmi di 
+https://campusdataweek.satudata.unair.ac.id. 
+2. Mengisi formulir dengan data lengkap seluruh anggota (nama, NIM, perguruan tinggi, 
+program studi, email, nomor WhatsApp). 
+3. Mengunggah scan/foto KTM seluruh anggota tim dan surat keterangan mahasiswa aktif. 
+4. Mengunggah bukti telah follow akun Instagram @satudata.unair, like dan tag 5 orang di kolom 
+komentar postingan kompetisi, repost postingan tersebut ke Instagram Story , serta 
+mengunggah twibbon yang tersedia di https://bit.ly/TwibbonCompetitionCDW2026 
+5. Bergabung ke grup koordinasi peserta sesuai tautan yang diberikan. 
+6. Pendaftaran sah setelah tim menerima konfirmasi resmi dari panitia. 
+ 
+ 
+
+=== PAGE 5 ===
+ 
+ 
+4 
+BAB IV — Mekanisme & Teknis Perlombaan 
+Innovation Case Competition terdiri atas tiga babak, yaitu Penyisihan (daring), Semifinal (daring), 
+dan Final (luring). 
+4.1 Babak Penyisihan — Implementasi Model 
+Panitia menyediakan sebuah studi kasus beserta dataset. Peserta diminta membangun model 
+untuk menghasilkan prediksi sesuai ketentuan soal. Penilaian bersifat objektif berdasarkan 
+performa model pada data test, mengikuti mekanisme leaderboard pada platform Kaggle. 
+Sebanyak 20 (dua puluh) tim dengan peringkat terbaik lolos ke Babak Semifinal. 
+4.2 Babak Semifinal — Penyusunan Draft Karya Ilmiah 
+Sebanyak 20 (dua puluh) tim menyusun draf karya ilmiah hingga Bab 3, yaitu Pendahuluan, 
+Tinjauan Pustaka, dan Metodologi. Draf akan dinilai untuk menentukan 6 (enam) tim yang lolos ke 
+Babak Final. 
+4.3 Babak Final — Karya Ilmiah dan Demo 
+Finalis melengkapi karya ilmiah menjadi utuh, dari Bab 1 hingga Bab 5, disertai demo atau 
+prototipe. Karya ilmiah dikumpulkan sebelum hari pelaksanaan final. Pada hari final, setiap tim 
+mempresentasikan karyanya secara luring dengan alokasi 15 (lima belas) menit presentasi dan 
+15 (lima belas) menit tanya jawab bersama dewan juri. Demo dilakukan di dalam slot presentasi 
+tersebut dan tidak disediakan slot demo terpisah, sehingga tim wajib mengatur waktunya sendiri. 
+Urutan tampil ditentukan melalui undian pada Technical Meeting Final. 
+4.3.1 Struktur Karya Ilmiah 
+1. Bab 1: latar belakang dan rumusan masalah yang disasar. 
+2. Bab 2: tinjauan pustaka, meliputi kajian solusi yang sudah ada dan posisi solusi yang 
+ditawarkan terhadap solusi tersebut. 
+3. Bab 3: metodologi dan arsitektur teknis (technical feasibility). 
+4. Bab 4: hasil atau prototipe demo beserta pembahasannya. 
+5. Bab 5: kesimpulan dan rencana pengembangan lanjutan. 
+BAB V — Kriteria Penilaian 
+5.1 Bobot Penilaian Semifinal 
+Draf karya ilmiah semifinal (Bab 1-3) dinilai dengan komponen dan bobot sebagai berikut. 
+Komponen Bobot 
+Urgensi dan Rumusan Masalah 20% 
+Tinjauan Pustaka dan Positioning 25% 
+Metodologi dan Kelayakan Teknis 35% 
+Sistematika Penulisan dan Orisinalitas 20% 
+TOTAL 100% 
+
+=== PAGE 6 ===
+ 
+ 
+5 
+5.2 Bobot Final 
+Penilaian Babak Final menggunakan komponen dan bobot sebagai berikut. 
+Komponen Bobot 
+Kelengkapan dan Konsistensi Karya Ilmiah 20% 
+Hasil dan Demo/Prototipe 30% 
+Presentasi 20% 
+Tanya Jawab 20% 
+Inovasi dan Dampak 10% 
+TOTAL 100% 
+Keputusan dewan juri bersifat final dan tidak dapat diganggu gugat. 
+BAB VI — Hadiah & Penghargaan 
+Penghargaan Hadiah 
+Juara 1 Rp 7.500.000 + e-sertifikat + merchandise 
+Juara 2 Rp 5.000.000 + e-sertifikat + merchandise 
+Juara 3 Rp 3.000.000 + e-sertifikat + merchandise 
+Juara Harapan 1 Rp 1.500.000 + e-sertifikat + merchandise 
+Juara Harapan 2 Rp 1.200.000 + e-sertifikat + merchandise 
+Juara Harapan 3 Rp 800.000 + e-sertifikat + merchandise 
+Seluruh Finalis (Top 6) e-sertifikat finalis + merchandise 
+Seluruh Semifinalis (Top 10) e-sertifikat semifinalis 
+Hadiah uang tunai ditransfer ke rekening pemenang sesuai ketentuan panitia yang akan 
+diinformasikan lebih lanjut. 
+BAB VII — Tata Tertib & Diskualifikasi 
+Bab ini memuat tata tertib yang berlaku pada setiap babak. Pelanggaran yang dilakukan oleh salah satu 
+anggota tim dianggap sebagai pelanggaran seluruh tim. Dengan mendaftar dan mengikuti kompetisi, 
+peserta dianggap telah membaca, memahami, dan menyetujui seluruh ketentuan dalam bab ini. 
+7.1 Babak Penyisihan 
+7.1.1 Ketentuan Umum 
+1. Tata tertib ini berlaku sejak soal dan dataset Babak Penyisihan dirilis hingga batas akhir 
+pengumpulan, yaitu 28 Agustus 2026 pukul 23.59 WIB, dan tetap berlaku untuk keperluan 
+audit dan verifikasi hingga Babak Final selesai. 
+2. Babak Penyisihan diselenggarakan melalui platform Kaggle ( in-class competition) yang 
+tautannya hanya dibagikan melalui kanal resmi panitia. Submission, komunikasi teknis, 
+
+=== PAGE 7 ===
+ 
+ 
+6 
+dan leaderboard yang sah hanya yang tercatat pada platform resmi tersebut. Panitia tidak 
+mengakui klaim skor maupun performa yang disampaikan di luar platform resmi, misalnya 
+melalui tangkapan layar atau pesan pribadi kepada panitia dan juri. 
+7.1.2 Akun Kaggle dan Identitas Peserta 
+1. Setiap anggota tim wajib memiliki dan menggunakan satu akun Kaggle pribadi, yaitu satu 
+akun untuk setiap orang, yang didaftarkan menggunakan alamat email yang sama 
+dengan yang tercantum pada formulir pendaftaran ICC. 
+2. Peserta dilarang membuat atau menggunakan akun Kaggle cadangan dengan tujuan apa 
+pun, termasuk menggandakan jatah submission harian, melakukan uji coba (probing) skor 
+leaderboard di luar akun tim resmi, maupun menyamarkan identitas. 
+3. Nama tim pada platform Kaggle wajib sama persis dengan nama tim pada saat 
+pendaftaran ICC. Ketidaksesuaian yang tidak dikoreksi sebelum batas akhir dianggap 
+sebagai pelanggaran administratif. 
+4. Sebelum melakukan submission pertama, seluruh anggota tim wajib bergabung ( merge) 
+ke dalam satu Team pada platform Kaggle. Submission individual yang dilakukan 
+sebelum penggabungan tidak diakui sebagai submission resmi tim dan tidak dinilai. 
+5. Apabila submission individual yang dilakukan sebelum penggabungan dan submission 
+tim setelah penggabungan, jika dijumlahkan, melebihi batas submission harian yang 
+berlaku, tim tersebut didiskualifikasi. 
+6. Peserta dilarang masuk atau menggunakan akun Kaggle milik peserta lain dengan alasan 
+apa pun, termasuk untuk membantu proses submission. 
+7. Komposisi tim yang telah diverifikasi pada saat pendaftaran tidak dapat diubah selama 
+Babak Penyisihan berlangsung. 
+8. Peserta dilarang menggunakan jasa joki atau melibatkan pihak di luar anggota tim 
+terdaftar dalam proses analisis, pemodelan, penulisan kode, maupun pengambilan 
+keputusan submission. 
+7.1.3 Dataset, Data Tambahan, dan Kerahasiaan 
+1. Data, deskripsi studi kasus, dan seluruh file soal Babak Penyisihan bersifat rahasia dan 
+hanya diperuntukkan bagi keperluan internal kompetisi ICC. 
+2. Peserta dilarang mengunggah, mendistribusikan, atau membagikan dataset maupun 
+soal, baik secara utuh maupun sebagian termasuk cuplikan dan tangkapan layar, ke 
+repositori publik seperti GitHub, Kaggle Datasets publik, atau Hugging Face, serta ke 
+forum, media sosial, atau grup di luar tim, baik selama maupun setelah kompetisi 
+berlangsung, kecuali atas izin panitia. 
+3. Peserta hanya diperbolehkan menggunakan data resmi yang disediakan panitia. 
+Penggunaan data eksternal, yaitu data tambahan di luar yang diberikan panitia, untuk 
+mengerjakan tugas kompetisi dalam bentuk apa pun tidak diperbolehkan. 
+4. Penggunaan komponen pihak ketiga yang bersifat publik dan tersedia terbuka, misalnya 
+library atau framework open-source, tetap diperbolehkan dengan ketentuan komponen 
+tersebut tidak disesuaikan menggunakan data test kompetisi maupun data yang 
+
+=== PAGE 8 ===
+ 
+ 
+7 
+mengandung kunci jawaban kompetisi, serta sumber atau namanya dicantumkan secara 
+jelas pada notebook. 
+5. Peserta dilarang menyusun submission secara manual, yaitu menghasilkan output 
+berdasarkan tebakan atau intervensi manual, dan bukan berdasarkan keluaran sistem 
+atau solusi yang dibangun tim secara metodologis dapat dipertanggungjawabkan. 
+7.1.4 Penggunaan AI Generatif 
+1. Penggunaan AI generatif, seperti ChatGPT dan Copilot, diperbolehkan tanpa batasan 
+teknis khusus, termasuk untuk membantu penulisan kode inti maupun notebook. Tim 
+tetap wajib memahami dan mampu menjelaskan seluruh keputusan metodologis atas 
+solusi yang diajukan secara mandiri apabila diminta oleh panitia. 
+2. Apabila tim tidak mampu menjelaskan metodologinya sendiri pada saat pemeriksaan oleh 
+panitia, hal tersebut dianggap sebagai pelanggaran dan dikenai pengurangan nilai pada 
+komponen penyisihan. 
+7.1.5 Submission dan Leaderboard 
+Submission terdiri atas dua bagian yang wajib dikumpulkan sebelum batas akhir: 
+● File prediksi dalam format .csv sesuai templat sample_submission dari panitia, 
+diunggah melalui platform Kaggle. 
+● File pendukung, diunggah melalui platform pendaftaran resmi ICC, dengan ketentuan 
+sebagai berikut. 
+1. Dikumpulkan dalam bentuk satu file ZIP dengan format penamaan 
+[NamaTim]_ICC2026_Penyisihan. 
+2. Zip berisi satu notebook lengkap yang memuat seluruh alur kerja secara end-to-end, 
+mulai dari pemuatan data hingga pembuatan prediksi akhir. 
+3. Notebook wajib memuat sel khusus yang dapat langsung menjalankan solusi tim dan 
+menghasilkan output yang sama dengan submission yang dikumpulkan di platform 
+Kaggle. 
+4. Zip turut menyertakan seluruh file pendukung yang diperlukan agar notebook dapat 
+dijalankan, termasuk file hasil kerja tim yang perlu dimuat ulang oleh notebook apabila 
+ada, kecuali file lingkungan (environment) atau daftar pustaka (library). 
+7.1.6 Ketentuan Submission dan Leaderboard 
+1. Skor resmi tim adalah skor tertinggi dari submission yang masih berada dalam batas 
+submission harian yang berlaku dan file pendukungnya telah dikumpulkan serta lolos 
+verifikasi reproduksibilitas. 
+2. Submission yang dikumpulkan melewati batas akhir, yaitu 28 Agustus 2026 pukul 23.59 
+WIB, tidak akan dinilai, tanpa toleransi maupun perpanjangan waktu, kecuali terdapat 
+gangguan pada platform resmi yang diakui dan diumumkan secara tertulis oleh panitia. 
+3. Setiap tim dibatasi paling banyak 3 (tiga) kali submission per hari, dengan batas diatur 
+ulang pada pukul 00.00 WIB. Upaya mengakali batas ini, misalnya melalui akun 
+cadangan, termasuk pelanggaran berat. 
+
+=== PAGE 9 ===
+ 
+ 
+8 
+4. Peringkat akhir dan penentuan 20 tim yang lolos ke Babak Semifinal dihitung dari 
+kombinasi skor Public Leaderboard dan Private Leaderboard dengan bobot 30% Public 
+dan 70% Private. Public Leaderboard  yang tampil selama kompetisi bersifat indikatif, 
+sedangkan skor gabungan resmi dihitung dan diumumkan setelah batas akhir submission 
+berakhir. 
+5. Peserta dilarang melakukan leaderboard probing , yaitu mengirim banyak submission 
+dengan variasi kecil semata-mata untuk menebak label data test satu per satu, dan bukan 
+untuk memperbaiki model. Panitia berhak meninjau pola submission yang mencurigakan 
+dan meminta klarifikasi. 
+6. Skor akhir dan hasil Private Leaderboard diumumkan bersamaan dengan pengumuman 
+20 tim yang lolos ke Babak Semifinal pada 7 September 2026. 
+7.1.7 Reproduksibilitas dan Notebook 
+1. Notebook yang dikumpulkan wajib dapat dijalankan ulang oleh panitia dari awal hingga 
+akhir tanpa error, serta menghasilkan skor yang konsisten dengan skor submission 
+terbaik tim pada leaderboard. 
+2. Notebook wajib menetapkan random seed  atau random state  secara eksplisit pada 
+seluruh tahap yang mengandung unsur keacakan. 
+3. Notebook wajib memuat alur kerja lengkap dan runtut, mulai dari pemuatan data hingga 
+pembuatan file submission akhir. 
+4. Apabila skor hasil pengujian ulang oleh panitia berbeda dari skor submission pada 
+leaderboard melebihi toleransi yang berlaku, yaitu rata-rata selisih skor di antara peringkat 
+20% teratas pada leaderboard gabungan (agregasi Public Leaderboard  dan Private 
+Leaderboard), tanpa penjelasan yang dapat diterima, maka submission tersebut 
+dinyatakan tidak sah dan skor tim diturunkan ke submission sah berikutnya, atau tim 
+didiskualifikasi apabila tidak terdapat submission sah lainnya. 
+7.1.8 Larangan Kerja Sama Antar Tim 
+1. Kerja sama dalam bentuk apa pun antar tim yang berbeda dilarang selama Babak 
+Penyisihan berlangsung, termasuk berbagi kode, notebook, atau file submission, maupun 
+menggunakan submission atau solusi milik tim lain, baik sebagian maupun seluruhnya. 
+2. Komunikasi teknis mengenai soal, dataset, atau klarifikasi hanya diperbolehkan melalui 
+kanal resmi panitia, yaitu Technical Meeting , grup koordinasi resmi, atau narahubung 
+panitia. 
+3. Kemiripan kode, notebook, atau pendekatan yang tidak wajar antara dua tim atau lebih, 
+di luar hal yang wajar seperti penggunaan library standar, akan diperiksa sebagai indikasi 
+pelanggaran atau plagiarisme dan dapat berakibat diskualifikasi seluruh tim yang terlibat. 
+4. Seluruh kode, analisis, dan ringkasan pendekatan yang dikumpulkan wajib merupakan 
+karya asli tim. Penggunaan cuplikan kode  dari sumber terbuka, misalnya dokumentasi 
+resmi library atau Stack Overflow, diperbolehkan sepanjang bukan merupakan inti solusi 
+yang diajukan dan disertai atribusi yang wajar apabila signifikan. Plagiarisme kode atau 
+ide dari kompetisi lain, repositori publik, maupun tim lain tanpa atribusi yang sah dilarang 
+dan termasuk pelanggaran berat. 
+
+=== PAGE 10 ===
+ 
+ 
+9 
+7.1.9 Pelanggaran dan Sanksi 
+No Kategori Contoh Pelanggaran Sanksi 
+1 Administratif 
+ringan 
+Kesalahan format atau penamaan file, 
+keterlambatan pengumpulan file 
+pendukung (bukan file submission utama) 
+dalam toleransi singkat 
+Pengurangan poin sesuai tingkat 
+pelanggaran 
+2 Teknis 
+Melebihi batas submission harian, 
+notebook tidak dapat dijalankan ulang 
+tanpa indikasi kesengajaan, random seed  
+tidak disertakan 
+Submission atau skor terkait 
+dinyatakan tidak sah, skor tim 
+mundur ke submission sah 
+sebelumnya 
+3 Sedang 
+Ketidaksesuaian identitas akun Kaggle 
+dengan pendaftaran, ketidakmampuan 
+menjelaskan metodologi pada saat 
+pemeriksaan, format submission tidak 
+sesuai ketentuan setelah diberi 
+kesempatan perbaikan 
+Pengurangan nilai signifikan pada 
+komponen penyisihan, dapat 
+ditingkatkan menjadi diskualifikasi 
+apabila berulang 
+4 Berat 
+Kerja sama antar tim, plagiarisme, joki, 
+penggunaan akun ganda, penggunaan 
+submission atau model milik tim lain, 
+pemalsuan data atau hasil eksperimen, 
+pelabelan manual, penggunaan data 
+eksternal di luar yang disediakan panitia, 
+dan leaderboard probing 
+Diskualifikasi langsung dari Babak 
+Penyisihan, serta dari babak 
+berikutnya apabila ditemukan 
+setelah lolos. Tim yang 
+bersangkutan turut diblacklist dari 
+kompetisi serupa yang 
+diselenggarakan panitia pada 
+penyelenggaraan berikutnya. 
+5 Ditemukan setelah 
+pengumuman 
+Segala pelanggaran kategori 3 dan 4 yang 
+baru diketahui setelah pengumuman finalis 
+atau pemenang 
+Pencabutan status finalis atau 
+gelar juara beserta hadiah yang 
+telah diberikan, diumumkan 
+secara resmi oleh panitia 
+ 
+7.1.10 Ketentuan tambahan mengenai sanksi 
+1. Penentuan kategori dan tingkat sanksi merupakan kewenangan panitia berdasarkan bukti 
+yang tersedia, dengan mempertimbangkan unsur kesengajaan, dampak terhadap 
+jalannya kompetisi, serta riwayat pelanggaran tim. 
+2. Tim yang didiskualifikasi tidak berhak atas pengembalian biaya pendaftaran, apabila ada, 
+maupun kompensasi dalam bentuk apa pun. 
+3. Diskualifikasi pada Babak Penyisihan tidak menghapus kewajiban tim untuk tetap 
+menjaga kerahasiaan dataset. 
+7.1.11 Hak Pemeriksaan Panitia 
+1. Panitia berhak melakukan pemeriksaan silang atau meminta klarifikasi kepada tim mana 
+pun, kapan saja , apabila terdapat dugaan kecurangan, termasuk meminta tim 
+menjelaskan metodologinya, menjalankan ulang notebook secara langsung, atau 
+menunjukkan bukti proses pengerjaan tambahan. 
+
+=== PAGE 11 ===
+ 
+ 
+10 
+2. Tim yang diminta menjalani pemeriksaan wajib kooperatif dan merespons dalam waktu 
+yang wajar. Tidak merespons, tidak mampu menjelaskan metodologi, atau tidak 
+kooperatif dianggap sebagai indikasi pelanggaran. 
+3. Keputusan panitia dan dewan juri atas hasil pemeriksaan bersifat final dan mengikat, tidak 
+dapat diganggu gugat, serta tidak tersedia mekanisme banding. 
+7.1.12 Ketentuan Lain-lain 
+1. Hal teknis yang belum diatur pada bagian ini, termasuk metrik penilaian spesifik, templat 
+submission, dan detail dataset, akan disampaikan bersamaan dengan rilis soal Babak 
+Penyisihan dan pada Technical Meeting Penyisihan. 
+2. Ketidakhadiran perwakilan tim pada Technical Meeting Penyisihan dianggap telah 
+menyetujui seluruh ketentuan yang disampaikan pada sesi tersebut. 
+7.2 Babak Semifinal dan Final (Karya Ilmiah) 
+7.2.1 Ketentuan Umum 
+1. Sebanyak 20 (dua puluh) tim dengan peringkat terbaik lolos dari Babak Penyisihan ke Babak 
+Semifinal. 
+2. Babak Semifinal berupa penyusunan dan pengumpulan draf karya ilmiah hingga Bab 3, yaitu 
+Pendahuluan, Tinjauan Pustaka, dan Metodologi. 
+3. Sebanyak 6 (enam) tim dengan skor draf terbaik lolos dari Babak Semifinal ke Babak Final. 
+4. Babak Final berupa penyelesaian karya ilmiah secara lengkap, dari Bab 1 hingga Bab 5, 
+disertai demo, yang dipresentasikan secara luring di Universitas Airlangga, Surabaya. 
+5. Komposisi tim yang telah diverifikasi sejak Babak Penyisihan tetap berlaku hingga Babak 
+Final. Tim tidak diperbolehkan mengganti anggota, kecuali atas persetujuan tertulis panitia 
+untuk kondisi mendesak yang dapat dipertanggungjawabkan, misalnya sakit berat. 
+6. Peserta dilarang menggunakan jasa joki atau melibatkan pihak di luar anggota tim terdaftar, 
+baik dalam penyusunan karya ilmiah, penyiapan demo, maupun presentasi. 
+7. Panitia berhak melakukan verifikasi identitas anggota tim kapan saja apabila ditemukan 
+kejanggalan. 
+8. Ketidakhadiran perwakilan tim pada Technical Meeting Semifinal maupun Technical Meeting 
+Final dianggap telah menyetujui seluruh ketentuan yang disampaikan pada sesi tersebut. 
+7.2.2 Babak Semifinal, Penyusunan Draf Karya Ilmiah 
+Draf karya ilmiah semifinal terdiri atas 3 bagian: 
+● Bab 1, Pendahuluan, memuat latar belakang dan rumusan masalah yang disasar sesuai 
+tema ICC. 
+● Bab 2, Tinjauan Pustaka, memuat kajian solusi atau penelitian yang sudah ada beserta 
+posisi solusi yang ditawarkan tim terhadap solusi tersebut. 
+● Bab 3, Metodologi, memuat rancangan solusi berbasis AI, arsitektur teknis, dan rencana 
+implementasi. 
+7.2.3 Ketentuan Penyusunan dan Penilaian Draf 
+
+=== PAGE 12 ===
+ 
+ 
+11 
+1. Format penulisan, meliputi jumlah halaman maksimal, jenis font, margin, dan gaya sitasi, 
+mengikuti templat resmi yang disediakan panitia bersamaan dengan Technical Meeting 
+Semifinal. 
+2. Draf dikumpulkan dalam format PDF melalui platform pendaftaran resmi ICC dengan format 
+penamaan file [NamaTim]_ICC2026_Semifinal. 
+3. Draf yang dikumpulkan melewati batas akhir tidak akan dinilai, tanpa toleransi maupun 
+perpanjangan waktu, kecuali terdapat gangguan pada platform resmi yang diakui dan 
+diumumkan secara tertulis oleh panitia. 
+4. Babak Semifinal hanya berupa pengumpulan submission karya secara daring, tanpa sesi 
+presentasi. 
+5. Sebanyak 6 (enam) tim dengan skor draf tertinggi lolos ke Babak Final berdasarkan bobot 
+penilaian pada BAB V. Skor Semifinal tidak dibawa sebagai komponen skor Babak Final; 
+penilaian Final dilakukan dari awal dengan kriteria pada BAB V. 
+6. Hasil penilaian dan daftar 6 finalis diumumkan melalui kanal resmi ICC dan Campus Data 
+Week 2026. 
+7.2.4 Larangan dan Integritas Akademik 
+1. Seluruh isi karya ilmiah, baik draf semifinal maupun versi lengkap pada final, wajib merupakan 
+karya asli tim, termasuk analisis, argumen, dan rancangan solusi yang diajukan. 
+2. Penggunaan AI generatif dalam penyusunan karya ilmiah dibatasi hanya untuk pemeriksaan 
+tata bahasa ( grammar checking ), penyuntingan bahasa ( language editing ), dan bantuan 
+penelusuran awal tinjauan pustaka. AI generatif dilarang digunakan untuk menghasilkan 
+rumusan masalah, analisis, argumen, metodologi, interpretasi hasil, kesimpulan, atau narasi 
+substansial karya ilmiah lainnya. Referensi yang disarankan oleh AI generatif wajib diverifikasi 
+keasliannya oleh tim sebelum digunakan. 
+3. Tim yang menggunakan AI generatif wajib mencantumkan pernyataan penggunaan pada 
+karya ilmiah, memuat nama tools AI yang digunakan (misalnya ChatGPT, Claude, atau 
+Grammarly), tujuan penggunaan secara spesifik, pernyataan bahwa seluruh isi telah ditinjau 
+dan disunting oleh penulis, serta pernyataan bahwa penulis bertanggung jawab penuh atas 
+akurasi dan orisinalitas karya. Karya ilmiah yang tidak mencantumkan pernyataan ini 
+dianggap disusun sepenuhnya tanpa bantuan AI generatif. 
+4. Karya ilmiah wajib lolos pengecekan kemiripan ( similarity check ) menggunakan Turnitin 
+dengan ambang batas di bawah 15%, di luar kutipan dan daftar referensi. 
+5. Peserta dilarang mengumpulkan karya yang sebelumnya pernah menjadi juara, 
+dipublikasikan, atau diikutsertakan pada kompetisi maupun jurnal lain, kecuali dinyatakan 
+secara terbuka dan disetujui panitia. 
+6. Peserta dilarang bekerja sama dengan tim lain dalam bentuk apa pun dalam penyusunan 
+karya ilmiah, termasuk berbagi draf maupun saling menyunting. 
+7. Topik dan rumusan masalah pada karya ilmiah final wajib konsisten dengan draf yang 
+dikumpulkan pada Babak Semifinal. Penyempurnaan atau revisi minor oleh tim diperbolehkan, 
+tetapi penggantian topik secara keseluruhan dianggap sebagai pelanggaran karena berarti 
+tim menggunakan karya yang belum melalui proses Penyisihan dan Semifinal. 
+8. Panitia berhak meminta klarifikasi kapan saja terhadap tim mana pun apabila ditemukan 
+indikasi pelanggaran di atas, sesuai ketentuan hak pemeriksaan panitia. 
+
+=== PAGE 13 ===
+ 
+ 
+12 
+7.2.5 Babak Final, Karya Ilmiah Lengkap dan Demo 
+Tim finalis melengkapi draf Semifinal menjadi karya ilmiah utuh dengan menambahkan: 
+● Bab 4, Hasil dan Pembahasan, memuat hasil implementasi atau prototipe demo beserta 
+pembahasannya. 
+● Bab 5, Penutup, memuat kesimpulan dan rencana pengembangan lanjutan. 
+7.2.6 Ketentuan Karya Ilmiah Lengkap, Demo, dan Presentasi Final 
+1. Karya ilmiah lengkap, dari Bab 1 hingga Bab 5, beserta model atau prototipe demo, 
+dikumpulkan sebelum 23 Oktober 2026 mengikuti format dan templat resmi yang disediakan 
+panitia. 
+2. Demo produk wajib berupa implementasi yang benar -benar berjalan ( working prototype ) 
+hingga tahap minimum viable product (MVP), bukan sekadar mockup atau rancangan visual, 
+dan wajib sesuai dengan apa yang dijelaskan dalam metodologi dan hasil pada karya ilmiah. 
+3. Demo dapat berupa produk digital maupun produk fisik berupa purwarupa perangkat keras, 
+tergantung solusi yang diajukan tim. Penilaian demo tidak dibedakan berdasarkan bentuk atau 
+kompleksitas fisik produk, melainkan berdasarkan sejauh mana purwarupa terseb ut 
+membuktikan konsep dan klaim teknis yang dijelaskan dalam karya ilmiah, sesuai komponen 
+Kualitas Demo dan Presentasi pada BAB V. 
+4. Tim wajib hadir secara luring dan tepat waktu pada Opening, Technical Meeting, dan sesi 
+presentasi final. Ketidakhadiran tanpa keterangan yang dapat diterima berakibat gugurnya tim 
+dari Babak Final. 
+5. Penilaian dilakukan oleh dewan juri berdasarkan komponen dan bobot pada BAB V. 
+Keputusan dewan juri bersifat final dan mengikat, tidak dapat diganggu gugat. 
+7.2.7 Pelanggaran dan Sanksi 
+No Kategori Contoh Pelanggaran Sanksi 
+1 Administratif 
+ringan 
+Format file atau templat tidak sesuai 
+ketentuan, keterlambatan pengumpulan 
+dalam toleransi singkat 
+Pengurangan poin sesuai tingkat 
+pelanggaran 
+2 Teknis 
+Similarity index  melebihi ambang batas 
+tanpa indikasi kesengajaan, demo tidak 
+dapat dijalankan pada saat presentasi 
+karena kendala teknis ringan 
+Pengurangan nilai pada 
+komponen terkait 
+3 Sedang 
+Topik atau rumusan masalah berubah 
+signifikan dari draf semifinal tanpa 
+penjelasan yang dapat diterima, 
+ketidakmampuan menjelaskan isi karya 
+ilmiah sendiri pada saat tanya jawab 
+Pengurangan nilai signifikan, 
+dapat ditingkatkan menjadi 
+diskualifikasi apabila berulang 
+atau disengaja 
+4 Berat 
+Plagiarisme karya ilmiah, kerja sama antar 
+tim, joki penulisan atau demo, karya bukan 
+orisinal, penggunaan AI generatif di luar 
+batas yang diperbolehkan atau tanpa 
+pernyataan penggunaan, pengumpulan 
+karya yang sudah pernah menjadi juara atau 
+Diskualifikasi langsung dari Babak 
+Semifinal atau Final. Tim yang 
+bersangkutan turut diblacklist dari 
+kompetisi serupa yang 
+diselenggarakan panitia pada 
+penyelenggaraan berikutnya. 
+
+=== PAGE 14 ===
+ 
+ 
+13 
+No Kategori Contoh Pelanggaran Sanksi 
+dipublikasikan tanpa keterbukaan, dan 
+demo palsu yang sebenarnya tidak berjalan 
+5 Ditemukan setelah 
+pengumuman 
+Segala pelanggaran kategori 3 dan 4 yang 
+baru diketahui setelah pengumuman finalis 
+atau pemenang 
+Pencabutan status finalis atau 
+gelar juara beserta hadiah yang 
+telah diberikan, diumumkan 
+secara resmi oleh panitia 
+ 
+7.2.8 Ketentuan Tambahan Mengenai Sanksi 
+1. Penentuan kategori dan tingkat sanksi merupakan kewenangan panitia berdasarkan bukti 
+yang tersedia, dengan mempertimbangkan unsur kesengajaan, dampak terhadap jalannya 
+kompetisi, serta riwayat pelanggaran tim. 
+2. Tim yang didiskualifikasi tidak  berhak atas pengembalian biaya pendaftaran, apabila ada, 
+maupun kompensasi dalam bentuk apa pun. 
+7.2.9 Hak Pemeriksaan Panitia 
+1. Panitia berhak melakukan pemeriksaan silang atau meminta klarifikasi kepada tim mana pun, 
+kapan saja, apabila terdapat dugaan kecurangan, termasuk meminta tim menjelaskan isi 
+karya ilmiah atau demonya secara langsung. 
+2. Tim yang diminta menjalani pemeriksaan wajib kooperatif dan merespons dalam waktu yang 
+wajar. Tidak merespons, tidak mampu menjelaskan isi karyanya sendiri, atau tidak kooperatif 
+dianggap sebagai indikasi pelanggaran. 
+3. Keputusan panitia dan dewan juri atas hasil pemeriksaan bersifat final dan mengikat, tidak 
+dapat diganggu gugat, serta tidak tersedia mekanisme banding. 
+7.2.10 Ketentuan Lain-lain 
+Hal teknis yang belum diatur pada bagian ini, termasuk templat karya ilmiah, detail format demo, 
+dan ketentuan teknis presentasi, akan disampaikan pada Technical Meeting Semifinal dan 
+Technical Meeting Final. 
+BAB VIII — Ketentuan Penutup 
+• Hal-hal yang belum diatur akan ditetapkan kemudian oleh panitia melalui kanal resmi. 
+• Panitia berhak menyesuaikan ketentuan (termasuk bobot penilaian) bila diperlukan, dengan 
+pemberitahuan kepada peserta. 
+• Hak cipta atas karya tetap menjadi milik peserta. Dengan mengikuti kompetisi ini, peserta 
+memberikan kepada panitia lisensi non -eksklusif, bebas royalti ( royalty-free), berlaku di 
+seluruh dunia, dan tanpa batas waktu untuk menggunakan, memperbanyak, mengubah, 
+mengadaptasi, menerjemahkan, mendistribusikan, menampilkan, mempublikasikan, 
+mengomunikasikan kepada publik, serta memanfaatkan karya, baik sebagian maupun 
+seluruhnya, dalam berbagai media dan format, untuk kepentingan penyelenggaraan, 
+dokumentasi, publikasi, edukasi, promosi, pengembangan program, maupun tujuan lain. 
+• Keputusan panitia dan dewan juri bersifat final dan mengikat. 
+
+=== PAGE 15 ===
+ 
+ 
+14 
+• Dengan mendaftar, peserta dianggap telah membaca, memahami, dan menyetujui seluruh 
+ketentuan dalam dokumen ini.  
