@@ -2,8 +2,8 @@
 
 import React, { useState } from 'react';
 import { INITIAL_COURSES, MOCK_ANALYTICS } from '../lib/coursesData';
-import { ConceptNode, PrerequisiteEdge, ChatMessage } from '../lib/types';
-import { updateDKTState, tracePrerequisiteMisconceptions } from '../lib/dktEngine';
+import { ConceptNode, PrerequisiteEdge, ChatMessage, Course } from '../lib/types';
+import { updateDKTState } from '../lib/dktEngine';
 import { getInitialWelcomeMessage, generateSocraticReply } from '../lib/socraticEngine';
 import KnowledgeGraphView from '../components/KnowledgeGraphView';
 import SocraticChat from '../components/SocraticChat';
@@ -22,7 +22,10 @@ import {
   AlertCircle,
   FileText,
   Activity,
-  Award
+  Award,
+  Layers,
+  Scale,
+  Cpu
 } from 'lucide-react';
 
 export default function Home() {
@@ -32,7 +35,7 @@ export default function Home() {
 
   const [nodes, setNodes] = useState<ConceptNode[]>(currentCourse.nodes);
   const [edges, setEdges] = useState<PrerequisiteEdge[]>(currentCourse.edges);
-  const [selectedNode, setSelectedNode] = useState<ConceptNode | null>(nodes.find((n) => n.id === 'chain_rule') || nodes[0]);
+  const [selectedNode, setSelectedNode] = useState<ConceptNode | null>(nodes.find((n) => n.status === 'deficit') || nodes[0]);
 
   // Mode: student vs dosen analytics
   const [activeTab, setActiveTab] = useState<'student' | 'analytics'>('student');
@@ -50,6 +53,20 @@ export default function Home() {
   const showToast = (msg: string) => {
     setToastMessage(msg);
     setTimeout(() => setToastMessage(null), 4000);
+  };
+
+  // Course Switcher handler
+  const handleSwitchCourse = (courseId: string) => {
+    const selectedCourse = courses.find((c) => c.id === courseId);
+    if (!selectedCourse) return;
+    setActiveCourseId(courseId);
+    setNodes(selectedCourse.nodes);
+    setEdges(selectedCourse.edges);
+    const initNode = selectedCourse.nodes.find((n) => n.status === 'deficit') || selectedCourse.nodes[0];
+    setSelectedNode(initNode);
+    setBacktrackedNodeId(undefined);
+    setMessages([getInitialWelcomeMessage(initNode)]);
+    showToast(`Beralih ke kurikulum: ${selectedCourse.title}`);
   };
 
   // Node selection handler
@@ -87,7 +104,7 @@ export default function Home() {
       id: `sys-${Date.now()}`,
       sender: 'system',
       text: isCorrect
-        ? `✅ **Evaluasi DKT:** Jawaban kuis pada topik **${targetNode?.label}** benar! Nilai probabilitas penguasaan naik menjadi ${(targetNode?.masteryScore! * 100).toFixed(0)}%.`
+        ? `✅ **Evaluasi DKT:** Jawaban asesmen pada topik **${targetNode?.label}** tepat! Probabilitas penguasaan kognitif P(L) naik menjadi ${(targetNode?.masteryScore! * 100).toFixed(0)}%.`
         : `⚠️ **Evaluasi DKT:** Terdeteksi miskonsepsi pada **${targetNode?.label}**. Backtracking graf mengarahkan fokus ke konsep prasyarat: **${nodes.find((n) => n.id === backtrackedTo)?.label || 'Prasyarat'}**.`,
       timestamp: new Date().toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' })
     };
@@ -117,28 +134,49 @@ export default function Home() {
 
   // 1-Click "Aha!" Moment Demo Trigger for Competition Pitch
   const triggerAhaMomentDemo = () => {
-    // 1. Select chain_rule (simulate student failure)
-    const chainNode = nodes.find((n) => n.id === 'chain_rule');
-    if (!chainNode) return;
+    if (activeCourseId === 'course-law-soshum') {
+      // SOSHUM Demo Case
+      const lawNode = nodes.find((n) => n.id === 'alasan_penghapus');
+      if (!lawNode) return;
+      setSelectedNode(lawNode);
+      setBacktrackedNodeId('unsur_tindak_pidana');
 
-    setSelectedNode(chainNode);
-    setBacktrackedNodeId('single_derivative');
+      const demoMsg: ChatMessage = {
+        id: `demo-law-${Date.now()}`,
+        sender: 'assistant',
+        text: `🚀 **[SIMULASI LIVE DEMO FINAL · SOSHUM HUKUM PIDANA]**\n\nMahasiswa baru saja menjawab salah dalam menganalisis kasus korban begal yang membela diri melampaui batas (*Noodweer Excess*).\n\n**Analisis Graph-RAG:** Mahasiswa belum menguasai pemisahan antara *Sifat Melawan Hukum Perbuatan (Alasan Pembenar)* vs *Kesalahan Pembuat (Alasan Pemaaf)*.\n\nMari kita bedah secara Sokrates:\nJika perbuatan membela diri tersebut tetap melanggar hukum secara fisik, tetapi pelakunya dimaafkan karena goncangan jiwa hebat, apakah dasar putusannya adalah **Alasan Pembenar** atau **Alasan Pemaaf**?`,
+        timestamp: new Date().toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' }),
+        isSocraticQuestion: true,
+        suggestedResponses: [
+          'Dasar putusannya adalah Alasan Pemaaf (Noodweer Excess Pasal 49 ayat 2)',
+          'Mengapa perbuatannya sendiri tetap berstatus melawan hukum?',
+          'Bagaimana menyusun konstruksi pembuktian di pengadilan?'
+        ]
+      };
+      setMessages((prev) => [...prev, demoMsg]);
+      showToast('Simulasi Live Pitch Demo SOSHUM (Hukum) Aktif!');
+    } else {
+      // STEM Demo Case
+      const chainNode = nodes.find((n) => n.id === 'chain_rule');
+      if (!chainNode) return;
+      setSelectedNode(chainNode);
+      setBacktrackedNodeId('single_derivative');
 
-    const demoMsg: ChatMessage = {
-      id: `demo-${Date.now()}`,
-      sender: 'assistant',
-      text: `🚀 **[SIMULASI LIVE DEMO FINAL]**\n\nMahasiswa baru saja menjawab salah pada soal turunan komposit $f(x) = (2x^2 + 1)^3$.\n\n**Analisis Graph-RAG:** Mahasiswa lupa mengalikan dengan turunan fungsi dalam $g'(x) = 4x$.\n\nMari kita bimbing menggunakan analogi **Kotak di dalam Kotak (Matryoshka Doll)** 🪆:\n- Turunan Kotak Luar $[\\dots]^3 = 3[\\dots]^2$\n- Turunan Kotak Dalam $(2x^2 + 1) = 4x$\n\nBerapa hasil perkalian keduanya?`,
-      timestamp: new Date().toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' }),
-      isSocraticQuestion: true,
-      suggestedResponses: [
-        'Hasilnya adalah 12x(2x^2 + 1)^2',
-        'Mengapa turunan angka 1 di dalam kurung hilang?',
-        'Terapkan ini ke fungsi loss Gradient Descent!'
-      ]
-    };
-
-    setMessages((prev) => [...prev, demoMsg]);
-    showToast('Simulasi Live Pitch Demo CDW 2026 Aktif!');
+      const demoMsg: ChatMessage = {
+        id: `demo-stem-${Date.now()}`,
+        sender: 'assistant',
+        text: `🚀 **[SIMULASI LIVE DEMO FINAL · STEM MACHINE LEARNING]**\n\nMahasiswa baru saja menjawab salah pada soal turunan komposit $f(x) = (2x^2 + 1)^3$.\n\n**Analisis Graph-RAG:** Mahasiswa lupa mengalikan dengan turunan fungsi dalam $g'(x) = 4x$.\n\nMari kita bimbing menggunakan analogi **Kotak di dalam Kotak (Matryoshka Doll)** 🪆:\n- Turunan Kotak Luar $[\\dots]^3 = 3[\\dots]^2$\n- Turunan Kotak Dalam $(2x^2 + 1) = 4x$\n\nBerapa hasil perkalian keduanya?`,
+        timestamp: new Date().toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' }),
+        isSocraticQuestion: true,
+        suggestedResponses: [
+          'Hasilnya adalah 12x(2x^2 + 1)^2',
+          'Mengapa turunan angka 1 di dalam kurung hilang?',
+          'Terapkan ini ke fungsi loss Gradient Descent!'
+        ]
+      };
+      setMessages((prev) => [...prev, demoMsg]);
+      showToast('Simulasi Live Pitch Demo STEM (Kalkulus & ML) Aktif!');
+    }
   };
 
   // Reset cognitive state
@@ -174,7 +212,7 @@ export default function Home() {
               </span>
             </div>
             <p className="text-[11px] text-slate-400">
-              Graph-Guided RAG & Deep Knowledge Tracing for Indonesian STEM Higher-Ed
+              Cross-Disciplinary Adaptive Skill Graph & Socratic Tutor (STEM & SOSHUM)
             </p>
           </div>
         </div>
@@ -236,43 +274,38 @@ export default function Home() {
 
       {/* Main Content Area */}
       <div className="flex-1 max-w-7xl w-full mx-auto p-6 space-y-6">
-        {/* Mobile Tab Switcher */}
-        <div className="flex md:hidden items-center p-1 rounded-xl bg-slate-900 border border-slate-800">
-          <button
-            onClick={() => setActiveTab('student')}
-            className={`flex-1 py-2 rounded-lg text-xs font-bold transition flex items-center justify-center gap-1.5 ${
-              activeTab === 'student' ? 'bg-blue-600 text-white' : 'text-slate-400'
-            }`}
-          >
-            <GraduationCap className="w-3.5 h-3.5" />
-            <span>Mahasiswa</span>
-          </button>
-          <button
-            onClick={() => setActiveTab('analytics')}
-            className={`flex-1 py-2 rounded-lg text-xs font-bold transition flex items-center justify-center gap-1.5 ${
-              activeTab === 'analytics' ? 'bg-blue-600 text-white' : 'text-slate-400'
-            }`}
-          >
-            <LayoutDashboard className="w-3.5 h-3.5" />
-            <span>Dosen / PUSAKA</span>
-          </button>
-        </div>
-
-        {/* Course Banner */}
-        <div className="p-4 rounded-2xl glass-panel border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        {/* Discipline & Course Switcher Bar */}
+        <div className="p-4 rounded-2xl glass-panel border border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
-            <div className="flex items-center gap-2">
-              <span className="text-xs font-mono font-bold px-2.5 py-0.5 rounded bg-indigo-950 text-indigo-300 border border-indigo-800">
-                {currentCourse.code}
+            <div className="flex items-center gap-2 mb-1">
+              <span className="text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded bg-slate-800 text-slate-300">
+                Pilih Domain Rumpun Ilmu
               </span>
-              <h2 className="text-sm font-bold text-white">{currentCourse.title}</h2>
+              <span className="text-xs text-slate-400">· Kampus Satu Data Universitas Airlangga</span>
             </div>
-            <p className="text-xs text-slate-400 mt-0.5">
-              {currentCourse.faculty} · {currentCourse.university}
-            </p>
+            <div className="flex flex-wrap items-center gap-2">
+              {courses.map((c) => {
+                const isSelected = c.id === activeCourseId;
+                const isSoshum = c.id.includes('soshum');
+                return (
+                  <button
+                    key={c.id}
+                    onClick={() => handleSwitchCourse(c.id)}
+                    className={`px-3.5 py-2 rounded-xl text-xs font-bold transition flex items-center gap-2 border ${
+                      isSelected
+                        ? 'bg-blue-600 text-white border-blue-500 shadow-md shadow-blue-600/25 ring-1 ring-blue-400'
+                        : 'bg-slate-900/80 text-slate-300 border-slate-800 hover:bg-slate-800 hover:border-slate-700'
+                    }`}
+                  >
+                    {isSoshum ? <Scale className="w-3.5 h-3.5 text-amber-400" /> : <Cpu className="w-3.5 h-3.5 text-blue-400" />}
+                    <span>{c.title}</span>
+                  </button>
+                );
+              })}
+            </div>
           </div>
 
-          <div className="flex items-center gap-3 text-xs">
+          <div className="flex items-center gap-3 text-xs flex-shrink-0">
             <div className="px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-800 flex items-center gap-2">
               <span className="text-slate-400">Total Simpul:</span>
               <span className="font-mono font-bold text-blue-400">{nodes.length} Konsep</span>
@@ -317,7 +350,7 @@ export default function Home() {
               showToast(`Notifikasi bimbingan remedial berhasil dikirim ke mahasiswa ${studentName}.`);
             }}
             onAutoParseSyllabus={(syllabusText) => {
-              showToast('Syllabus-to-Graph Parser berhasil mengekstrak 10 simpul konsep & dependensi DAG.');
+              showToast('Syllabus-to-Graph Parser berhasil mengekstrak simpul konsep & dependensi DAG.');
             }}
           />
         )}
@@ -334,12 +367,12 @@ export default function Home() {
             const remedialMsg: ChatMessage = {
               id: `remedial-${Date.now()}`,
               sender: 'assistant',
-              text: `Mari kita perbaiki pemahamanmu pada topik **${node.label}** melalui penuntun konsep ${deficitNode ? `**${deficitNode.label}**` : ''}.\n\nApa bagian yang menurutmu paling menantang: aturan rantai komposit atau penurunan fungsi konstanta?`,
+              text: `Mari kita perbaiki pemahamanmu pada topik **${node.label}** melalui penuntun konsep ${deficitNode ? `**${deficitNode.label}**` : 'prasyarat'}.\n\nApa bagian yang menurutmu paling menantang: diferensiasi unsur normatifnya atau penerapannya pada kasus konkret?`,
               timestamp: new Date().toLocaleTimeString('id-ID', { hour: '2-digit', minute: '2-digit' }),
               isSocraticQuestion: true,
               suggestedResponses: [
-                'Aturan diferensiasi fungsi dalam',
-                'Mengapa konstanta menjadi 0 saat diturunkan',
+                'Diferensiasi unsur normatif dasarnya',
+                'Mengapa unsur tersebut menentukan kualifikasi perbuatan',
                 'Beri saya analogi sederhana untuk mengingatnya'
               ]
             };

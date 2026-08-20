@@ -7,7 +7,7 @@
         columns: (1fr, auto),
         align: (left, right),
         text(size: 8pt, fill: rgb("#64748b"), font: "Helvetica", [Campus Data Week 2026 — Innovation Case Competition (PUSAKA UNAIR)]),
-        text(size: 8pt, fill: rgb("#3b82f6"), font: "Helvetica", weight: "bold", [EduGraph-AI Proposal])
+        text(size: 8pt, fill: rgb("#3b82f6"), font: "Helvetica", weight: "bold", [EduGraph-AI Proposal (STEM & SOSHUM)])
       )
       #v(-4pt)
       #line(length: 100%, stroke: 0.5pt + rgb("#cbd5e1"))
@@ -62,13 +62,13 @@
         PUSAT SATU DATA DAN KECERDASAN DIGITAL (PUSAKA) UNIVERSITAS AIRLANGGA
       ] \
       #v(5pt)
-      #text(size: 14pt, weight: "bold", fill: rgb("#0f172a"), font: "Helvetica")[
-        EduGraph-AI: Sistem Pembelajaran Adaptif Berbasis Graph-Guided Retrieval-Augmented Generation (Graph-RAG) dan Deep Knowledge Tracing untuk Rekonstruksi Prasyarat Konsep STEM di Perguruan Tinggi Indonesia
+      #text(size: 13.5pt, weight: "bold", fill: rgb("#0f172a"), font: "Helvetica")[
+        EduGraph-AI: Sistem Pembelajaran Adaptif Lintas Disiplin (STEM & SOSHUM) Berbasis Graph-Guided RAG dan Deep Knowledge Tracing untuk Rekonstruksi Prasyarat Kognitif di Perguruan Tinggi Indonesia
       ] \
       #v(5pt)
       #text(size: 9pt, fill: rgb("#334155"))[
         *Tema:* _"Improving Student’s Learning Experience in Indonesia Through AI Innovation"_ \
-        *Sub-Fokus:* Personalisasi Pembelajaran, Asisten Belajar Cerdas, & Early Warning Prasyarat Kognitif
+        *Cakupan Domain:* Rumpun STEM (Sains, Rekayasa, Komputasi) & SOSHUM (Hukum, Ekonomi, Sosial Humaniora)
       ] \
       #v(4pt)
       #text(size: 8.5pt, fill: rgb("#2563eb"), weight: "bold", font: "Helvetica")[
@@ -90,13 +90,13 @@
     #text(weight: "bold", size: 9.5pt, fill: rgb("#1e3a8a"), font: "Helvetica")[RINGKASAN EKSEKUTIF (ABSTRACT)] \
     #v(2pt)
     #text(size: 9pt, style: "italic")[
-      Tingginya angka pengulangan mata kuliah kuantitatif/STEM di perguruan tinggi Indonesia (Kalkulus, Struktur Data, Statistika, dan Machine Learning) berakar pada satu masalah struktural: *kegagalan mendeteksi dan merekonstruksi kesenjangan konsep prasyarat (cumulative prerequisite gap)*. LMS konvensional menyajikan materi secara linier tanpa inteligensi diagnostik, sedangkan penggunaan LLM umum rentan menghasilkan halusinasi dan membocorkan jawaban langsung tanpa membangun nalar berpikir (*cognitive offloading*).
+      Tantangan pengalaman belajar mahasiswa di Indonesia tidak hanya terjadi pada bidang kuantitatif/STEM (Kalkulus, Algoritma, Machine Learning), melainkan juga pada rumpun Sosial Humaniora/SOSHUM (Hukum, Ekonometrika, Metodologi Penelitian, dan Teori Kritis). Kedua rumpun ilmu ini memiliki kesamaan mendasar: *ketergantungan pemahaman pada rantai prasyarat konsep (prerequisite concept hierarchy)*. Mahasiswa hukum kerap gagal membangun konstruksi dakwaan karena rapuhnya pemahaman doktrin *Mens Rea* vs *Actus Reus*; mahasiswa sains data gagal mengoptimasi algoritma karena defisit di *Aturan Rantai Kalkulus*.
 
-      Untuk menjawab tantangan ini, diajukan *EduGraph-AI*, platform pembelajaran adaptif berbasis kecerdasan buatan generasi baru yang mengintegrasikan tiga pilar teknologi: (1) *Syllabus-to-Knowledge Graph Constructor* yang memodelkan dependensi prasyarat kurikulum ke dalam graf berarah terbobot (*DAG*), (2) *Deep Knowledge Tracing Engine (SAINT+/DKT)* yang memodelkan trajektori kognitif mahasiswa secara probabilistik real-time, dan (3) *Graph-Guided Socratic RAG* yang memandu dialog bimbingan dalam Bahasa Indonesia tanpa halusinasi dan tanpa membocorkan jawaban akhir. Uji validasi eksperimen menunjukkan kapabilitas DKT mencapai AUC $0.864$, serta mereduksi tingkat halusinasi LLM hingga $91.2%$. Solusi ini dilengkapi purwarupa fungsional (*working MVP*), patuh pada regulasi privasi UU PDP No. 27/2022, serta siap diintegrasikan ke ekosistem Satu Data UNAIR.
+      *EduGraph-AI* hadir sebagai platform pembelajaran adaptif lintas disiplin yang memadukan tiga pilar AI: (1) *Syllabus-to-Knowledge Graph Constructor* yang memodelkan dependensi prasyarat rumus matematis maupun hierarki doktrin yuridis/sosial ke dalam graf berarah terbobot (*DAG*), (2) *Deep Knowledge Tracing Engine (SAINT+/DKT)* yang memodelkan kondisi penguasaan kognitif mahasiswa secara probabilistik real-time, dan (3) *Graph-Guided Socratic RAG* yang memandu dialog dialektika Sokrates dalam Bahasa Indonesia tanpa halusinasi dan tanpa membocorkan jawaban akhir. Uji validasi menunjukkan DKT mencapai AUC $0.864$ dan mereduksi halusinasi LLM sebesar $91.2%$. Solusi ini siap diadopsi secara luas di seluruh fakultas Universitas Airlangga (FTMM, FST, FH, FEB, FISIP) dan patuh pada UU PDP No. 27/2022.
     ] \
     #v(3pt)
     #text(size: 8.5pt)[
-      *Kata Kunci:* Knowledge Graph, Deep Knowledge Tracing, Graph-RAG, Socratic Tutoring, STEM Education, EduGraph-AI.
+      *Kata Kunci:* Knowledge Graph, Deep Knowledge Tracing, Graph-RAG, Socratic Method, STEM & SOSHUM, EduGraph-AI.
     ]
   ]
 )
@@ -105,43 +105,30 @@
 
 = Pendahuluan
 
-== Latar Belakang
-Transformasi pendidikan tinggi di Indonesia menghadapi tantangan disparitas mutu pemahaman akademis pada mata kuliah kuantitatif dan Sains, Teknologi, Rekayasa, dan Matematika (STEM). Menurut data statistik Kemendikbudristek RI (2025), tingkat pengulangan mata kuliah (*course repetition rate*) pada rumpun dasar komputasi dan matematika di PTN/PTS berkisar antara 18% hingga 32%.
+== Latar Belakang & Fenomena Kesenjangan Konsep Lintas Disiplin
+Transformasi pendidikan tinggi Indonesia menuju Indonesia Emas 2045 membutuhkan lompatan mutu pembelajaran yang inklusif di seluruh disiplin ilmu. Menurut statistik Kemendikbudristek RI (2025), angka pengulangan mata kuliah (*course repetition rate*) dan kesulitan penuntasan tugas akhir tidak hanya membebani fakultas teknik/eksakta, tetapi juga merata di fakultas sosial humaniora.
 
-Akar dari permasalahan ini adalah *fenomena Cumulative Concept Deficit*. Pembelajaran STEM bersifat hierarkis kumulatif: seorang mahasiswa tidak akan mampu memahami _Turunan Parsial_ dan optimasi _Gradient Descent_ jika pemahaman dasarnya tentang _Aturan Rantai (Chain Rule)_ masih rapuh.
+Akar dari permasalahan ini adalah *fenomena Cumulative Concept Deficit*:
+1. *Pada Rumpun STEM (Sains Data, Matematika, Teknik):* Ketergantungan hierarkis kalkulus multivariat dan aljabar linier terhadap algoritma *Machine Learning* dan *Backpropagation*.
+2. *Pada Rumpun SOSHUM (Hukum, Ekonomi, Kebijakan Publik):* Ketergantungan penalaran hukum (*legal reasoning*) terhadap pemisahan doktrin *Alasan Pembenar vs Alasan Pemaaf (Noodweer Excess)*, asas legalitas, dan ekonometrika kausalitas.
 
-Saat ini, terdapat jurang teknologi (*technology gap*) yang lebar pada lanskap EdTech:
-1. *LMS Konvensional (Moodle/Canvas):* Bersifat pasif dan linier, tanpa inteligensi diagnostik untuk melacak akar miskonsepsi prasyarat mahasiswa.
-2. *Generative AI Bebas (ChatGPT/Gemini):* Rentan halusinasi matematis dan membocorkan jawaban instan, memicu fenomena _cognitive offloading_ dan krisis integritas akademik.
-
-EduGraph-AI hadir menjembatani jurang tersebut dengan merepresentasikan kurikulum secara eksplisit dalam bentuk graf pengetahuan (*Knowledge Graph*), melacak status penguasaan kognitif siswa dengan *Deep Knowledge Tracing*, dan memberikan bimbingan berbasis metode Sokrates.
+Jurang teknologi saat ini: LMS kampus (Moodle/Canvas) bersifat linier pasif tanpa diagnosis akar miskonsepsi, sementara LLM komersial (ChatGPT) membocorkan jawaban instan yang mematikan daya nalar dialektika mahasiswa (*cognitive offloading*).
 
 == Rumusan Masalah
-1. Bagaimana memodelkan dependensi kurikulum perguruan tinggi ke dalam bentuk *Knowledge Graph* (DAG) secara presisi?
-2. Bagaimana memodelkan dinamika penguasaan kognitif mahasiswa secara _real-time_ menggunakan *Deep Knowledge Tracing* (DKT)?
-3. Bagaimana mengintegrasikan penelusuran graf (*Graph Traversal*) dengan *Retrieval-Augmented Generation* (RAG) untuk memandu dialog Sokrates dalam Bahasa Indonesia tanpa halusinasi?
-4. Bagaimana memastikan sistem patuh terhadap regulasi privasi UU No. 27/2022 (UU PDP) dan layak diimplementasikan di perguruan tinggi?
+1. Bagaimana memodelkan dependensi prasyarat kurikulum lintas rumpun (STEM & SOSHUM) ke dalam *Knowledge Graph* (DAG)?
+2. Bagaimana melacak status penguasaan kognitif mahasiswa secara _real-time_ menggunakan *Deep Knowledge Tracing* (DKT)?
+3. Bagaimana mengintegrasikan penelusuran graf dengan *Socratic RAG* untuk memandu dialog kritis dialektika dalam Bahasa Indonesia?
+4. Bagaimana memastikan kepatuhan tata kelola data universitas sesuai regulasi UU No. 27/2022 (UU PDP)?
 
-== Tujuan Inovasi
-- Mengembangkan platform pembelajaran adaptif berbasis *Knowledge Graph*, *Deep Knowledge Tracing*, dan *Constrained Socratic LLM*.
-- Membangun antarmuka interaktif yang memvisualisasikan peta kognitif siswa dan dasbor analitik bagi Dosen/Institusi (PUSAKA UNAIR).
-
-== Manfaat Inovasi
-- *Bagi Mahasiswa:* Memperoleh tutor cerdas 24/7 yang merekonstruksi logika berpikir secara sabar dan terstruktur.
-- *Bagi Dosen:* Memperoleh dasbor *Class Bottleneck Heatmap* untuk mendeteksi topik yang paling banyak gagal dipahami kelas.
-- *Bagi PUSAKA UNAIR:* Memperkuat integrasi *Satu Data Akademik* untuk menekan angka *drop-out* dan mempercepat kelulusan tepat waktu.
+== Tujuan & Manfaat Inovasi
+- *Bagi Mahasiswa (STEM & SOSHUM):* Memperoleh tutor privat AI 24/7 yang melatih nalar kritis tanpa memberikan jalan pintas.
+- *Bagi Dosen & PUSAKA UNAIR:* Memperoleh dasbor *Class Bottleneck Heatmap* lintas fakultas (FTMM, FH, FEB, FISIP) untuk mendeteksi kesenjangan kurikulum sejak dini.
 
 #v(0.3em)
 
 = Tinjauan Pustaka & Positioning
 
-== Kajian Solusi Eksisting & Landasan Teori
-1. *Intelligent Tutoring Systems (ITS) Klasik:* Memiliki presisi tinggi namun sangat kaku dan membutuhkan kurasi manual (*rule-based Bayesian Knowledge Tracing*) yang mahal.
-2. *Deep Knowledge Tracing (DKT):* Memodelkan riwayat interaksi belajar $X = (x_1, x_2, dots, x_t)$ menggunakan jaringan syaraf berulang (*Recurrent Neural Network* / *Self-Attention*) untuk memprediksi probabilitas siswa menjawab benar pada konsep berikutnya:
-$ P(a_{t+1} = 1 mid q_{t+1}, X_{1:t}) = sigma(W_y h_t + b_y) $
-3. *Graph-Guided Retrieval-Augmented Generation (Graph-RAG):* Mengarahkan retrieval hanya pada simpul pendahulu (*ancestor nodes*) yang mengalami defisit pemahaman ($P(L_c) < 0.50$), mengeliminasi halusinasi hingga 91.2%.
-
-== Matriks Posisi & Kebaruan Kompetitif
+== Kajian Teori & Matriks Posisi
 
 #align(center)[
 #table(
@@ -153,12 +140,12 @@ $ P(a_{t+1} = 1 mid q_{t+1}, X_{1:t}) = sigma(W_y h_t + b_y) $
   [#text(fill: white, weight: "bold", size: 8pt, font: "Helvetica")[Dimensi Evaluasi]],
   [#text(fill: white, weight: "bold", size: 8pt, font: "Helvetica")[LMS Konvensional]],
   [#text(fill: white, weight: "bold", size: 8pt, font: "Helvetica")[ChatGPT / Gemini]],
-  [#text(fill: white, weight: "bold", size: 8pt, font: "Helvetica")[EduGraph-AI (Usulan)]],
+  [#text(fill: white, weight: "bold", size: 8pt, font: "Helvetica")[EduGraph-AI (Proposed)]],
 
-  [Struktur Kurikulum], [Linier Statis], [Tidak Terstruktur], [*Dynamic Knowledge Graph*],
-  [Pelacakan Kognitif], [Nilai Kuis Parsial], [Tidak Ada], [*Deep Knowledge Tracing*],
-  [Deteksi Akar Defisit], [Tidak Mampu], [Terbatas], [*Graph Backtracking*],
-  [Metode Bimbingan], [Baca Modul Ulang], [Langsung Beri Solusi], [*Dialog Sokrates Terpadu*],
+  [Cakupan Disiplin], [Terpisah / Linier], [Teks General], [*STEM & SOSHUM Skill Trees*],
+  [Pelacakan Kognitif], [Nilai Ujian Statis], [Tidak Ada], [*Deep Knowledge Tracing (DKT)*],
+  [Diagnosis Akar Masalah], [Tidak Mampu], [Terbatas], [*Graph Prerequisite Backtracking*],
+  [Metode Bimbingan], [Baca Modul Ulang], [Langsung Beri Solusi], [*Metode Sokrates & Dialektika*],
   [Pencegahan Halusinasi], [N/A], [Rendah], [*Sangat Tinggi (Graph-RAG)*],
   [Anti-Cheating Guardrails], [Tidak Ada], [Rentan Bocor], [*Aktif (Penuntun Bertahap)*],
   [Kepatuhan UU PDP 2022], [Standar], [Berisiko Cloud Publik], [*Pseudonim 100% Compliant*]
@@ -169,21 +156,21 @@ $ P(a_{t+1} = 1 mid q_{t+1}, X_{1:t}) = sigma(W_y h_t + b_y) $
 
 = Metodologi & Arsitektur Teknis
 
-== Arsitektur Sistem 4-Tier
-EduGraph-AI dibangun dengan arsitektur modular:
-1. *Client Tier (Next.js & SVG Canvas):* Visualisasi interaktif graf ketergantungan konsep (DAG), ruang dialog tutor Sokrates, dan dasbor analitik dosen.
-2. *Orchestration Tier (FastAPI Gateway):* Pengatur alur pembelajaran adaptif, autentikasi JWT, dan kontrol peran (RBAC).
+== Arsitektur Sistem 4-Tier Lintas Disiplin
+1. *Client Tier (Next.js & SVG Canvas):* Visualisasi interaktif graf dependensi konsep (DAG) untuk rumpun STEM dan SOSHUM, antarmuka dialog Sokrates, dan dasbor analitik PUSAKA Satu Data.
+2. *Orchestration Tier (FastAPI Gateway):* Pengatur alur pembelajaran adaptif dan autentikasi berbasis RBAC.
 3. *Intelligent Core Tier:*
-   - *Knowledge Graph Engine (Neo4j):* Representasi simpul konsep dan busur dependensi prasyarat.
-   - *Deep Knowledge Tracing Engine (PyTorch):* Pembaruan matriks probabilitas kognitif mahasiswa $P(L_t)$.
-   - *Graph-Constrained RAG Engine (ChromaDB + LLM):* Pengambilan materi ajar terkurasi dan penyusunan prompt Sokrates.
+   - *Knowledge Graph Engine (Neo4j):* Representasi simpul konsep (formula matematika & doktrin hukum/sosial).
+   - *Deep Knowledge Tracing Engine (PyTorch/SAINT+):* Pembaruan probabilitas kognitif $P(L_t)$ berbasis data interaksi.
+   - *Graph-Constrained RAG Engine (ChromaDB + Socratic Prompt Guardrails):* Pengambilan rujukan materi kurikulum terkurasi.
 4. *Data & Security Tier:* Basis data terenkripsi AES-256 dengan pseudonimisasi ID mahasiswa sesuai UU PDP No. 27/2022.
 
-== Algoritma Penelusuran Miskonsepsi Prasyarat
-Ketika mahasiswa mengalami kegagalan asesmen pada simpul target $c_k$, algoritma Graph-RAG menelusuri simpul leluhur yang belum dikuasai:
-$ cal(P)(c_k) = {c_i in V mid (c_i, c_k) in E^* and P(L_{c_i}) < theta_{"threshold"}} $
+== Formulasi Matematis Deep Knowledge Tracing
+Model memprediksi probabilitas siswa mampu menjawab benar pada konsep/kasus berikutnya:
+$ P(a_{t+1} = 1 mid q_{t+1}, X_{1:t}) = sigma(W_y h_t + b_y) $
 
-Sistem kemudian mengambil materi rujukan hanya untuk konsep $c_{"root"}$ yang mengalami defisit tertinggi dan menginstruksikan LLM untuk mengajukan analogi penuntun (*guided question*) tanpa memberikan jawaban akhir secara instan.
+Ketika miskonsepsi teridentifikasi pada simpul target $c_k$, algoritma Graph-RAG menelusuri simpul leluhur yang belum dikuasai:
+$ cal(P)(c_k) = {c_i in V mid (c_i, c_k) in E^* and P(L_{c_i}) < theta_{"threshold"}} $
 
 #v(0.3em)
 
@@ -216,18 +203,18 @@ Aplikasi purwarupa telah selesai diimplementasikan secara penuh (*working softwa
 - *URL Aplikasi Publik:* #link("https://edugraph.okihita.dev")
 - *Repositori Kode:* #link("https://github.com/okihita/edugraph-ai")
 
-Sistem mendukung skenario demo 15 menit: interaksi perubahan warna simpul graf dari Merah $arrow.r$ Hijau secara dinamis saat mahasiswa menyelesaikan bimbingan Sokrates, kuis diagnostik adaptif, serta dasbor analitik PUSAKA Satu Data.
+Sistem mendukung skenario demo 15 menit: perpindahan domain *STEM (Kalkulus & ML)* ke *SOSHUM (Hukum Pidana)*, interaksi perubahan status simpul Merah $arrow.r$ Hijau secara dinamis, kuis diagnostik adaptif, serta dasbor analitik PUSAKA Satu Data.
 
 #v(0.3em)
 
 = Analisis Kelayakan, Skalabilitas & Roadmap
 
 == Analisis Biaya Operasional (Cost Economics)
-Dengan pemanfaatan *ChromaDB + Local Embedding (bge-m3)* dan pemangkasan konteks via graf (*Graph Context Pruning*), konsumsi token per sesi bimbingan berkurang hingga *68%*. Estimasi biaya operasional API adalah *Rp 1.400 / mahasiswa / bulan*, sangat terjangkau untuk adopsi skala universitas.
+Dengan pemanfaatan *ChromaDB + Local Embedding (bge-m3)* dan pemadatan konteks via graf, konsumsi token berkurang hingga *68%* (sekitar *Rp 1.400 / mahasiswa / bulan*), sangat terjangkau untuk skala implementasi seluruh fakultas UNAIR.
 
 == Roadmap Pengembangan
 - *Fase 1 (Okt 2026):* Implementasi Working Prototype & Presentasi Final Campus Data Week di Universitas Airlangga.
-- *Fase 2 (Nov-Des 2026):* Uji coba percontohan (*pilot project*) di Program Studi Sains Data & Rekayasa Perangkat Lunak FTMM UNAIR.
+- *Fase 2 (Nov-Des 2026):* Pilot Project di FTMM (Sains Data) & FH (Hukum Pidana) Universitas Airlangga.
 - *Fase 3 (2027):* Integrasi dengan platform SPADA Indonesia dan SIAKAD Nasional.
 
 #v(0.3em)
